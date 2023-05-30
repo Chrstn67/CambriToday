@@ -1,0 +1,68 @@
+/* Effet de couleur de fond */
+body {
+  background-color: #fcf5e5;
+}
+
+/* Effet de titre */
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #8b4513;
+}
+
+/* Effet de table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/* Effet de bordure des cellules */
+td,
+th {
+  border: 1px solid #8b4513;
+  padding: 0.5rem;
+}
+
+/* Effet de couleur de texte */
+span {
+  color: #8b4513;
+}
+
+/* Effet de taille de police */
+td:first-child p span,
+td:first-child span {
+  font-size: 2rem;
+}
+
+/* Effet de rotation */
+td:first-child p span {
+  display: inline-block;
+  transform: rotate(-10deg);
+}
+
+/* Effet d'ombre portée */
+td:first-child p span {
+  box-shadow: 4px 4px 4px #888888;
+}
+
+/* Effet de dégradé */
+th span {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffe6cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Effet de mise en évidence de cellule */
+td:nth-child(2) span,
+td:nth-child(3) span,
+td:nth-child(4) span,
+td:nth-child(5) span {
+  font-weight: bold;
+}
+
+/* Effet de surbrillance au survol */
+td:hover {
+  background-color: #ffe6cc;
+}
