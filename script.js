@@ -44,6 +44,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Afficher l'aside
         animalInfo.style.display = "block";
+
+        // Réinitialiser la valeur du select
+        select.selectedIndex = 0;
       });
     }
   });
