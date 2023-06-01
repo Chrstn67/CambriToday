@@ -1761,7 +1761,7 @@ const especeData = {
       period: "Cambrien",
       epoque: "Miaolingien",
       etage: "Wuliuen",
-      image: "/images/Anomalocaris.jpeg",
+      image: "./images/Anomalocaris.jpeg",
       description:
         "Anomalocaris possédait un corps allongé avec une paire d'yeux composés, une bouche munie de nombreuses pointes et des appendices en forme de nageoires. Il mesurait entre 2 et 4 mètres de longueur et se nourrissait probablement de petits organismes marins. Anomalocaris est considéré comme l'un des premiers prédateurs de grande taille de l'histoire de la vie sur Terre.",
     },
@@ -1792,7 +1792,7 @@ const especeData = {
       period: "Cambrien",
       epoque: "Terreneuvien",
       etage: "Etage 2",
-      image: "/images/Conodontes.jpg",
+      image: "./images/Conodontes.jpg",
       description:
         "Les conodontes sont des microfossiles marins éteints qui ressemblaient à de petites dents ou à des éléments dentaires. De la taille d'un grain de riz pour les plus gros spécimens, ils se sont éteints au Trias mais sont aujourd'hui considérés comme des indices stratigraphiques précieux pour la datation des roches sédimentaires. Les conodontes étaient des animaux primitifs, sans mâchoires, qui jouaient probablement un rôle dans la capture de proies et la digestion.",
     },
@@ -1801,7 +1801,7 @@ const especeData = {
       period: "Cambrien",
       epoque: "Terreneuvien",
       etage: "Etage 2",
-      image: "/images/Trilobite.jpeg",
+      image: "./images/Trilobite.jpeg",
       description:
         "Un trilobite est un ancien groupe d'arthropodes marins qui ont vécu il y a des millions d'années. Ces animaux étaient caractérisés par un corps segmenté en trois parties distinctes, d'où leur nom. Ils possédaient une carapace externe dure et étaient munis de multiples paires de pattes. Les trilobites ont existé pendant une période allant du Cambrien au Permien, et ils sont considérés comme l'un des premiers organismes complexes existants. Leurs fossiles nous permettent de retracer leur histoire et d'en apprendre davantage sur la vie marine préhistorique.",
     },
@@ -1812,7 +1812,7 @@ const especeData = {
       period: "Cambrien",
       epoque: "Terreneuvien",
       etage: "Fortunien",
-      image: "/images/Halkieria.jpeg",
+      image: "./images/Halkieria.jpeg",
       description:
         "Halkieria appartenait au groupe des animaux à corps mou et possédait une coquille en forme de bouclier. Halkieria avait une symétrie bilatérale et se déplaçait en utilisant un pied musclé. Il possédait également une bouche, des organes digestifs et un système nerveux primitif. Bien que petit, Halkieria occupait un rôle important dans les écosystèmes marins de l'époque.",
     },
@@ -1821,7 +1821,7 @@ const especeData = {
       period: "Cambrien",
       epoque: "Terreneuvien",
       etage: "Fortunien",
-      image: "/images/Helcionelloida.jpeg",
+      image: "./images/Helcionelloida.jpeg",
       description:
         "Mollusques primitifs avec une coquille en forme de cône et un corps mou à l'intérieur, les Helcionelloida étaient de petite taille et avaient une symétrie bilatérale. Ils sont considérés comme l'un des ancêtres des gastéropodes, un groupe comprenant des escargots et des limaces. Malgré leur disparition, leur étude permet de mieux comprendre diversité de la vie marine ancienne.",
     },
@@ -1830,7 +1830,7 @@ const especeData = {
       period: "Cambrien",
       epoque: "Terreneuvien",
       etage: "Fortunien",
-      image: "/images/Hyolitha.jpeg",
+      image: "./images/Hyolitha.jpeg",
       description:
         "Les Hyolitha sont un groupe éteint d'animaux marins qui ressemblaient à des coquillages en forme de cônes avec une coquille en forme de tube. On pense qu'ils étaient fixés au fond de l'océan par une partie de leur coquille, tandis que leur corps se trouvait à l'intérieur du tube. Les Hyolitha étaient de petites créatures et leur mode de vie exact ainsi que leur parenté avec d'autres groupes d'animaux marins restent encore en grande partie mystérieux.",
     },
