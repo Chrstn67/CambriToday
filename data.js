@@ -1674,24 +1674,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Cambrien",
-      epoque: "Furongien",
-      etage: "Etage 10",
-      image: "",
-      description: "",
-    },
   ],
   Jiangshanien: [
-    {
-      name: "",
-      period: "Cambrien",
-      epoque: "Furongien",
-      etage: "Jiangshanien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Cambrien",
@@ -1710,31 +1694,16 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Cambrien",
-      epoque: "Furongien",
-      etage: "Paibien",
-      image: "",
-      description: "",
-    },
   ],
   Guzhangien: [
     {
-      name: "",
+      name: "Peytoia",
       period: "Cambrien",
       epoque: "Miaolingien",
       etage: "Guzhangien",
-      image: "",
-      description: "",
-    },
-    {
-      name: "",
-      period: "Cambrien",
-      epoque: "Miaolingien",
-      etage: "Guzhangien",
-      image: "",
-      description: "",
+      image: "./images/Peytoia.jpeg",
+      description:
+        "Peytoia possédait une bouche munie de crocs acérés qui leur permettaient de capturer et de dévorer leurs proies. Ces animaux ont joué un rôle important dans les écosystèmes marins de l'époque en tant que prédateurs dominants.",
     },
   ],
   Drumien: [
@@ -1746,16 +1715,17 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Cambrien",
-      epoque: "Miaolingien",
-      etage: "Drumien",
-      image: "",
-      description: "",
-    },
   ],
   Wuliuen: [
+    {
+      name: "Aysheaia",
+      period: "Cambrien",
+      epoque: "Miaolingien",
+      etage: "Wuliuen",
+      image: "./images/Aysheaia.jpeg",
+      description:
+        "Aysheaia était caractérisé par son corps segmenté et allongé, avec des appendices en forme de pattes sur chaque segment. Ces créatures étaient dépourvues de membres articulés et possédaient une bouche située à l'extrémité antérieure de leur corps. Aysheaia était probablement un prédateur, se nourrissant de petits organismes marins.",
+    },
     {
       name: "Anomalocaris",
       period: "Cambrien",
@@ -1764,6 +1734,78 @@ const especeData = {
       image: "./images/Anomalocaris.jpeg",
       description:
         "Anomalocaris possédait un corps allongé avec une paire d'yeux composés, une bouche munie de nombreuses pointes et des appendices en forme de nageoires. Il mesurait entre 2 et 4 mètres de longueur et se nourrissait probablement de petits organismes marins. Anomalocaris est considéré comme l'un des premiers prédateurs de grande taille de l'histoire de la vie sur Terre.",
+    },
+    {
+      name: "Hallucigenia",
+      period: "Cambrien",
+      epoque: "Miaolingien",
+      etage: "Wuliuen",
+      image: "./images/Hallucigenia.jpeg",
+      description:
+        "Cet animal marin à la silouhette atypique avait un corps allongé avec des épines sur le dos et de nombreuses pattes pointues. Ses caractéristiques étranges et inhabituelles en ont fait un fossile fascinant pour les scientifiques.",
+    },
+    {
+      name: "Marrella",
+      period: "Cambrien",
+      epoque: "Miaolingien",
+      etage: "Wuliuen",
+      image: "./images/Marrella.jpeg",
+      description:
+        "Cette petite créature marine mesurant environ 5 centimètres de longueur possédait un corps allongé et divisé en segments, avec de multiples paires de pattes fines et ramifiées. Sa tête était munie d'antennes et de mandibules. On pense que Marrella était un animal filtreur se nourrissant de particules alimentaires présentes dans l'eau. Ses fossiles fournissent des informations précieuses sur la biodiversité au cours de cette période ancienne de l'histoire de la Terre.",
+    },
+    {
+      name: "Nectocaris",
+      period: "Cambrien",
+      epoque: "Miaolingien",
+      etage: "Wuliuen",
+      image: "./images/Nectocaris.jpeg",
+      description:
+        "Cet de petite taille, mesurant environ 10 centimètres de longueur, avec un corps allongé et divisé en segments, possédait de nombreux appendices, y compris des nageoires latérales et des tentacules sur sa tête, qui étaient probablement utilisés pour capturer sa nourriture. Nectocaris est considéré comme l'un des premiers exemples connus de céphalopodes, une famille d'animaux marins qui comprend les poulpes, les calmars et les seiches. Son fossile a été découvert dans des gisements en Australie et au Canada, fournissant des informations précieuses sur la diversité des formes de vie au cours du Cambrien.",
+    },
+    {
+      name: "Odontogriphus",
+      period: "Cambrien",
+      epoque: "Miaolingien",
+      etage: "Wuliuen",
+      image: "./images/Odontogriphus.jpeg",
+      description:
+        "Odontogriphus avait un corps allongé en forme de ver, mesurant jusqu'à 12 centimètres de long. Il possédait une bouche équipée de dents coniques, appelées conodontes, qui étaient utilisées pour saisir et broyer sa nourriture. Odontogriphus joue un rôle important dans la compréhension de l'évolution des conodontes et des premiers vertébrés.",
+    },
+    {
+      name: "Opabinia",
+      period: "Cambrien",
+      epoque: "Miaolingien",
+      etage: "Wuliuen",
+      image: "./images/Opabinia.jpeg",
+      description:
+        "C'était un arthropode étrange et unique, mesurant environ 5 centimètres de long. Opabinia avait un corps allongé avec une tête en forme de trompe qui possédait deux grands yeux composés et une bouche dirigée vers le bas. Sur sa tête, il y avait également cinq yeux plus petits. Il possédait de nombreux membres minces et articulés, dont un pair de pinces à l'avant. Opabinia était dotée d'un appendice en forme de queue qui ressemblait à une plume et qui était probablement utilisé pour se propulser dans l'eau. Cette créature énigmatique est considérée comme l'un des premiers exemples connus de formes de vie complexe de l'ère cambrienne.",
+    },
+    {
+      name: "Pikaia",
+      period: "Cambrien",
+      epoque: "Miaolingien",
+      etage: "Wuliuen",
+      image: "./images/Pikaia.jpeg",
+      description:
+        "Pikaia était un animal segmenté en forme de ver, mesurant environ 5 à 7 centimètres de long. Il possédait un corps allongé avec une symétrie bilatérale et était pourvu d'une queue en forme de nageoire. Il n'avait pas de véritable colonne vertébrale, mais possédait une structure semblable à une tige appelée 'notochorde', qui est considérée comme un précurseur de la colonne vertébrale. Pikaia vivait dans les mers peu profondes de la période cambrienne et se nourrissait probablement de particules organiques en suspension dans l'eau.",
+    },
+    {
+      name: "Sidneyia",
+      period: "Cambrien",
+      epoque: "Miaolingien",
+      etage: "Wuliuen",
+      image: "./images/Sidneyia.jpeg",
+      description:
+        "Sidneyia possède un corps allongé et segmenté, recouvert d'une carapace dure, et il est considéré comme l'un des premiers prédateurs connus. Sidneyia avait une paire d'antennes à l'avant de sa tête, suivie de plusieurs paires de pattes. Il mesurait généralement entre 2 et 7 centimètres de long. ",
+    },
+    {
+      name: "Wiwaxia",
+      period: "Cambrien",
+      epoque: "Miaolingien",
+      etage: "Wuliuen",
+      image: "./images/Wiwaxia.jpeg",
+      description:
+        "Wiwaxia était une créature marine qui avait un corps ovale couvert de plaques dures et pointues, semblables à des écailles. Wiwaxia possédait de nombreux piquants défensifs sur son dos et une rangée de petits appendices en forme de brosse sur ses côtés, qui l'aidaient à filtrer les particules de nourriture de l'eau. Il se déplaçait en utilisant des appendices minces situés sur son ventre. ",
     },
   ],
   Etage4: [
@@ -1815,6 +1857,15 @@ const especeData = {
       image: "./images/Halkieria.jpeg",
       description:
         "Halkieria appartenait au groupe des animaux à corps mou et possédait une coquille en forme de bouclier. Halkieria avait une symétrie bilatérale et se déplaçait en utilisant un pied musclé. Il possédait également une bouche, des organes digestifs et un système nerveux primitif. Bien que petit, Halkieria occupait un rôle important dans les écosystèmes marins de l'époque.",
+    },
+    {
+      name: "Haikouichthys",
+      period: "Cambrien",
+      epoque: "Terreneuvien",
+      etage: "Fortunien",
+      image: "./images/Haikouichthys.jpeg",
+      description:
+        "Haikouichthys était caractérisé par un corps allongé et mince, dépourvu de mâchoires et d'écailles. Haikouichthys possédait une fente branchiale unique de chaque côté de son corps, ce qui suggère qu'il respirait principalement par branchies. Il est considéré comme l'un des premiers vertébrés connus.",
     },
     {
       name: "Helcionelloida",

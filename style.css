@@ -67,8 +67,8 @@ select {
   padding: 0.5em;
 }
 img {
-  height: 10em;
-  font-weight: 10em;
+  height: 15em;
+  width: 15em;
 }
 
 #animal-info {
