@@ -29,21 +29,21 @@ document.addEventListener("DOMContentLoaded", function () {
         // Sélectionnez l'élément de l'aside
         const animalInfo = document.getElementById("animal-info");
 
-        // Sélectionnez l'élément du canvas
-        const canvas = document.getElementById("canvas");
+        // Sélectionnez l'élément du modal-canvas
+        const canvas = document.getElementById("modal-canvas");
 
-        // Mettez à jour les informations dans le canvas
+        // Mettez à jour les informations dans le modal-canvas
         canvas.innerHTML = `
-            <img src="${especeInfo.image}" alt="${especeInfo.name}">
-            <h2>${especeInfo.name}</h2>
-            <p> <span class="time-info">Période:</span> ${especeInfo.period}</p>
-            <p> <span class="time-info">Époque:</span> ${especeInfo.epoque}</p>
-            <p> <span class="time-info">Étage:</span> ${especeInfo.etage}</p>
-            <p class="description">${especeInfo.description}</p>
-          `;
+          <h2>${especeInfo.name}</h2>
+          <img src="${especeInfo.image}" alt="${especeInfo.name}">
+          <p><span class="time-info">Période:</span> ${especeInfo.period}</p>
+          <p><span class="time-info">Époque:</span> ${especeInfo.epoque}</p>
+          <p><span class="time-info">Étage:</span> ${especeInfo.etage}</p>
+          <p class="description">${especeInfo.description}</p>
+        `;
 
-        // Ajoutez la classe "open" pour ouvrir l'aside
-        animalInfo.classList.add("open");
+        // Afficher l'aside
+        animalInfo.style.display = "block";
       });
     }
   });
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Ajoutez un gestionnaire d'événements de clic au bouton de fermeture
   closeButton.addEventListener("click", () => {
-    // Supprimez la classe "open" pour fermer l'aside
-    animalInfo.classList.remove("open");
+    // Masquer l'aside
+    animalInfo.style.display = "none";
   });
 });

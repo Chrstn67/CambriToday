@@ -19,13 +19,13 @@
         <section class="timeline">
           <table>
             <tbody>
-              <tr>
+              <tr class="sticky-header">
                 <th><span class="time">Éon</span></th>
                 <th><span class="time">Ère</span></th>
                 <th><span class="time">Période</span></th>
                 <th><span class="time">Époque</span></th>
                 <th><span class="time">Étage</span></th>
-                <th>Especes disparues</th>
+                <th>Espèces</th>
                 <th>Âge (Ma)</th>
               </tr>
               <tr>
@@ -576,12 +576,16 @@
               <tr>
                 <td rowspan="3">Miaolingien</td>
                 <td>Guzhangien</td>
-                <td class="espece-cell" data-etage="Guzhangien"></td>
+                <td class="espece-cell">
+                  <p>Pas d'espèces connues apparues à cet étage</p>
+                </td>
                 <td>≃500,5</td>
               </tr>
               <tr>
                 <td>Drumien</td>
-                <td class="espece-cell" data-etage="Drumien"></td>
+                <td class="espece-cell">
+                  <p>Pas d'espèces connues apparues à cet étage</p>
+                </td>
                 <td>≃504,5</td>
               </tr>
               <tr>
@@ -592,12 +596,16 @@
               <tr>
                 <td rowspan="2">Série 2</td>
                 <td>Étage 4</td>
-                <td class="espece-cell" data-etage="Etage4"></td>
+                <td class="espece-cell">
+                  <p>Pas d'espèces connues apparues à cet étage</p>
+                </td>
                 <td>≃514</td>
               </tr>
               <tr>
                 <td>Étage 3</td>
-                <td class="espece-cell" data-etage="Etage3"></td>
+                <td class="espece-cell">
+                  <p>Pas d'espèces connues apparues à cet étage</p>
+                </td>
                 <td>≃521</td>
               </tr>
               <tr>
@@ -615,9 +623,10 @@
           </table>
         </section>
         <aside id="animal-info">
-          <button id="close-button">X</button>
-
-          <div id="canvas"></div>
+          <div class="modal-content">
+            <button id="close-button">X</button>
+            <div id="modal-canvas"></div>
+          </div>
         </aside>
       </section>
     </main>
