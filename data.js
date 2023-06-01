@@ -2,14 +2,6 @@
 const especeData = {
   Méghalayen: [
     {
-      name: "Ane",
-      period: "Quaternaire",
-      epoque: "Holocène",
-      etage: "Méghalayen",
-      image: "",
-      description: "",
-    },
-    {
       name: "",
       period: "Quaternaire",
       epoque: "Holocène",
@@ -27,14 +19,6 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Quaternaire",
-      epoque: "Holocène",
-      etage: "Méghalayen",
-      image: "",
-      description: "",
-    },
   ],
   Greenlandien: [
     {
@@ -45,24 +29,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Quaternaire",
-      epoque: "Holocène",
-      etage: "Méghalayen",
-      image: "",
-      description: "",
-    },
   ],
   PléistocèneSupérieur: [
-    {
-      name: "",
-      period: "Quaternaire",
-      epoque: "Pléistocène",
-      etage: "Pléistocène Supérieur",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Quaternaire",
@@ -81,14 +49,6 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Quaternaire",
-      epoque: "Pléistocène",
-      etage: "Pléistocène Moyen",
-      image: "",
-      description: "",
-    },
   ],
   Calabrien: [
     {
@@ -99,24 +59,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Quaternaire",
-      epoque: "Pléistocène",
-      etage: "Calabrien",
-      image: "",
-      description: "",
-    },
   ],
   Gélasien: [
-    {
-      name: "",
-      period: "Quaternaire",
-      epoque: "Pléistocène",
-      etage: "Gélasien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Quaternaire",
@@ -136,24 +80,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Néogène",
-      epoque: "Pliocène",
-      etage: "Plaisancien",
-      image: "",
-      description: "",
-    },
   ],
   Zancléen: [
-    {
-      name: "",
-      period: "Néogène",
-      epoque: "Pliocène",
-      etage: "Zancléen",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Néogène",
@@ -172,24 +100,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Néogène",
-      epoque: "Miocène",
-      etage: "Messinien",
-      image: "",
-      description: "",
-    },
   ],
   Tortonien: [
-    {
-      name: "",
-      period: "Néogène",
-      epoque: "Miocène",
-      etage: "Tortonien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Néogène",
@@ -208,24 +120,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Néogène",
-      epoque: "Miocène",
-      etage: "Serravallien",
-      image: "",
-      description: "",
-    },
   ],
   Langhien: [
-    {
-      name: "",
-      period: "Néogène",
-      epoque: "Miocène",
-      etage: "Langhien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Néogène",
@@ -245,14 +141,6 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Néogène",
-      epoque: "Miocène",
-      etage: "Burdigalien",
-      image: "",
-      description: "",
-    },
   ],
   Aquitanien: [
     {
@@ -264,25 +152,9 @@ const especeData = {
       description:
         "Le Deinotherium était un genre d'éléphant préhistorique qui a vécu pendant le Miocène, il y a environ 23 à 5 millions d'années. Il était caractérisé par ses défenses inférieures courbées vers l'avant, contrairement aux éléphants modernes dont les défenses sont incurvées vers le bas. Le Deinotherium avait une trompe allongée et une taille impressionnante, pouvant atteindre jusqu'à 4 mètres de hauteur à l'épaule. Les plus gros spécimen devaient peser entre 12 et 15 tonnes. C'était l'un des plus grands mammifères terrestres de son époque.",
     },
-    {
-      name: "",
-      period: "Néogène",
-      epoque: "Miocène",
-      etage: "Aquitanien",
-      image: "",
-      description: "",
-    },
   ],
 
   Chattien: [
-    {
-      name: "",
-      period: "Paléogène",
-      epoque: "Oligocène",
-      etage: "Chattien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Paléogène",
@@ -301,24 +173,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Paléogène",
-      epoque: "Oligocène",
-      etage: "Rupélien",
-      image: "",
-      description: "",
-    },
   ],
   Priabonien: [
-    {
-      name: "",
-      period: "Paléogène",
-      epoque: "Eocène",
-      etage: "Priabonien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Paléogène",
@@ -337,24 +193,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Paléogène",
-      epoque: "Eocène",
-      etage: "Bartonien",
-      image: "",
-      description: "",
-    },
   ],
   Lutétien: [
-    {
-      name: "",
-      period: "Paléogène",
-      epoque: "Eocène",
-      etage: "Lutétien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Paléogène",
@@ -373,24 +213,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Paléogène",
-      epoque: "Eocène",
-      etage: "Yprésien",
-      image: "",
-      description: "",
-    },
   ],
   Thanétien: [
-    {
-      name: "",
-      period: "Paléogène",
-      epoque: "Paléocène",
-      etage: "Thanétien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Paléogène",
@@ -409,24 +233,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Paléogène",
-      epoque: "Paléocène",
-      etage: "Sélandien",
-      image: "",
-      description: "",
-    },
   ],
   Danien: [
-    {
-      name: "",
-      period: "Paléogène",
-      epoque: "Paléocène",
-      etage: "Danien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Paléogène",
@@ -445,24 +253,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Crétacé",
-      epoque: "Supérieur",
-      etage: "Maastrichtien",
-      image: "",
-      description: "",
-    },
   ],
   Campanien: [
-    {
-      name: "",
-      period: "Crétacé",
-      epoque: "Supérieur",
-      etage: "Campanien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Crétacé",
@@ -481,24 +273,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Crétacé",
-      epoque: "Supérieur",
-      etage: "Santonien",
-      image: "",
-      description: "",
-    },
   ],
   Coniacien: [
-    {
-      name: "",
-      period: "Crétacé",
-      epoque: "Supérieur",
-      etage: "Coniacien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Crétacé",
@@ -517,24 +293,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Crétacé",
-      epoque: "Supérieur",
-      etage: "Turonien",
-      image: "",
-      description: "",
-    },
   ],
   Cénomanien: [
-    {
-      name: "",
-      period: "Crétacé",
-      epoque: "Supérieur",
-      etage: "Cénomanien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Crétacé",
@@ -553,24 +313,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Crétacé",
-      epoque: "Inférieur",
-      etage: "Albien",
-      image: "",
-      description: "",
-    },
   ],
   Aptien: [
-    {
-      name: "",
-      period: "Crétacé",
-      epoque: "Inférieur",
-      etage: "Aptien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Crétacé",
@@ -589,24 +333,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Crétacé",
-      epoque: "Inférieur",
-      etage: "Barrémien",
-      image: "",
-      description: "",
-    },
   ],
   Hauterivien: [
-    {
-      name: "",
-      period: "Crétacé",
-      epoque: "Inférieur",
-      etage: "Hauterivien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Crétacé",
@@ -625,24 +353,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Crétacé",
-      epoque: "Inférieur",
-      etage: "Valanginien",
-      image: "",
-      description: "",
-    },
   ],
   Berriasien: [
-    {
-      name: "",
-      period: "Crétacé",
-      epoque: "Inférieur",
-      etage: "Berriasien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Crétacé",
@@ -661,24 +373,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Jurassique",
-      epoque: "Supérieur",
-      etage: "Tithonien",
-      image: "",
-      description: "",
-    },
   ],
   Kimméridgien: [
-    {
-      name: "",
-      period: "Jurassique",
-      epoque: "Supérieur",
-      etage: "Kimméridgien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Jurassique",
@@ -697,24 +393,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Jurassique",
-      epoque: "Supérieur",
-      etage: "Oxfordien",
-      image: "",
-      description: "",
-    },
   ],
   Callovien: [
-    {
-      name: "",
-      period: "Jurassique",
-      epoque: "Moyen",
-      etage: "Callovien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Jurassique",
@@ -733,24 +413,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Jurassique",
-      epoque: "Moyen",
-      etage: "Bathonien",
-      image: "",
-      description: "",
-    },
   ],
   Bajocien: [
-    {
-      name: "",
-      period: "Jurassique",
-      epoque: "Moyen",
-      etage: "Bajocien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Jurassique",
@@ -769,24 +433,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Jurassique",
-      epoque: "Moyen",
-      etage: "Aalénien",
-      image: "",
-      description: "",
-    },
   ],
   Toarcien: [
-    {
-      name: "",
-      period: "Jurassique",
-      epoque: "Inférieur",
-      etage: "Toarcien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Jurassique",
@@ -805,24 +453,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Jurassique",
-      epoque: "Inférieur",
-      etage: "Pliensbachien",
-      image: "",
-      description: "",
-    },
   ],
   Sinémurien: [
-    {
-      name: "",
-      period: "Jurassique",
-      epoque: "Inférieur",
-      etage: "Sinémurien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Jurassique",
@@ -841,24 +473,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Jurassique",
-      epoque: "Inférieur",
-      etage: "Hettangien",
-      image: "",
-      description: "",
-    },
   ],
   Rhétien: [
-    {
-      name: "",
-      period: "Trias",
-      epoque: "Supérieur",
-      etage: "Rhétien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Trias",
@@ -878,24 +494,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Trias",
-      epoque: "Supérieur",
-      etage: "Norien",
-      image: "",
-      description: "",
-    },
   ],
   Carnien: [
-    {
-      name: "",
-      period: "Trias",
-      epoque: "Supérieur",
-      etage: "Carnien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Trias",
@@ -914,24 +514,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Trias",
-      epoque: "Moyen",
-      etage: "Ladinien",
-      image: "",
-      description: "",
-    },
   ],
   Anisien: [
-    {
-      name: "",
-      period: "Trias",
-      epoque: "Moyen",
-      etage: "Anisien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Trias",
@@ -950,24 +534,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Trias",
-      epoque: "Inférieur",
-      etage: "Olénékien",
-      image: "",
-      description: "",
-    },
   ],
   Indusien: [
-    {
-      name: "",
-      period: "Trias",
-      epoque: "Inférieur",
-      etage: "Indusien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Trias",
@@ -986,24 +554,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Permien",
-      epoque: "Lopingien",
-      etage: "Changhsingien",
-      image: "",
-      description: "",
-    },
   ],
   Wuchiapingien: [
-    {
-      name: "",
-      period: "Permien",
-      epoque: "Lopingien",
-      etage: "Wuchiapingien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Permien",
@@ -1022,24 +574,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Permien",
-      epoque: "Guadalupien",
-      etage: "Capitanien",
-      image: "",
-      description: "",
-    },
   ],
   Wordien: [
-    {
-      name: "",
-      period: "Permien",
-      epoque: "Guadalupien",
-      etage: "Wordien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Permien",
@@ -1058,24 +594,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Permien",
-      epoque: "Guadalupien",
-      etage: "Roadien",
-      image: "",
-      description: "",
-    },
   ],
   Kungurien: [
-    {
-      name: "",
-      period: "Permien",
-      epoque: "Cisuralien",
-      etage: "Kungurien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Permien",
@@ -1094,24 +614,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Permien",
-      epoque: "Cisuralien",
-      etage: "Artinskien",
-      image: "",
-      description: "",
-    },
   ],
   Sakmarien: [
-    {
-      name: "",
-      period: "Permien",
-      epoque: "Cisuralien",
-      etage: "Sakmarien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Permien",
@@ -1130,14 +634,6 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Permien",
-      epoque: "Cisuralien",
-      etage: "Assélien",
-      image: "",
-      description: "",
-    },
   ],
   Gzhélien: [
     {
@@ -1148,24 +644,9 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Carbonifère",
-      epoque: "Pennsylvanien",
-      etage: "Gzhélien",
-      image: "",
-      description: "",
-    },
+    ,
   ],
   Kasimovien: [
-    {
-      name: "",
-      period: "Carbonifère",
-      epoque: "Pennsylvanien",
-      etage: "Kasimovien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Carbonifère",
@@ -1184,24 +665,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Carbonifère",
-      epoque: "Pennsylvanien",
-      etage: "Moscovien",
-      image: "",
-      description: "",
-    },
   ],
   Bachkirien: [
-    {
-      name: "",
-      period: "Carbonifère",
-      epoque: "Pennsylvanien",
-      etage: "Bachkirien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Carbonifère",
@@ -1221,24 +686,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Carbonifère",
-      epoque: "Mississippien",
-      etage: "Serpukhovien",
-      image: "",
-      description: "",
-    },
   ],
   Viséen: [
-    {
-      name: "",
-      period: "Carbonifère",
-      epoque: "Mississippien",
-      etage: "Viséen",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Carbonifère",
@@ -1257,24 +706,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Carbonifère",
-      epoque: "Mississippien",
-      etage: "Tournaisien",
-      image: "",
-      description: "",
-    },
   ],
   Famennien: [
-    {
-      name: "",
-      period: "Dévonien",
-      epoque: "Supérieur",
-      etage: "Famennien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Dévonien",
@@ -1293,24 +726,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Dévonien",
-      epoque: "Supérieur",
-      etage: "Frasnien",
-      image: "",
-      description: "",
-    },
   ],
   Givétien: [
-    {
-      name: "",
-      period: "Dévonien",
-      epoque: "Moyen",
-      etage: "Givétien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Dévonien",
@@ -1329,24 +746,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Dévonien",
-      epoque: "Moyen",
-      etage: "Eifélien",
-      image: "",
-      description: "",
-    },
   ],
   Emsien: [
-    {
-      name: "",
-      period: "Dévonien",
-      epoque: "Inférieur",
-      etage: "Emsien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Dévonien",
@@ -1365,24 +766,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Dévonien",
-      epoque: "Inférieur",
-      etage: "Praguien",
-      image: "",
-      description: "",
-    },
   ],
   Lochkovien: [
-    {
-      name: "",
-      period: "Dévonien",
-      epoque: "Inférieur",
-      etage: "Lochkovien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Dévonien",
@@ -1401,24 +786,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Silurien",
-      epoque: "Pridoli",
-      etage: "Pridolien",
-      image: "",
-      description: "",
-    },
   ],
   Ludfordien: [
-    {
-      name: "",
-      period: "Silurien",
-      epoque: "Ludlow",
-      etage: "Ludfordien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Silurien",
@@ -1437,24 +806,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Silurien",
-      epoque: "Ludlow",
-      etage: "Gorstien",
-      image: "",
-      description: "",
-    },
   ],
   Homérien: [
-    {
-      name: "",
-      period: "Silurien",
-      epoque: "Wenlock",
-      etage: "Homérien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Silurien",
@@ -1473,24 +826,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Silurien",
-      epoque: "Wenlock",
-      etage: "Sheinwoodien",
-      image: "",
-      description: "",
-    },
   ],
   Télychien: [
-    {
-      name: "",
-      period: "Silurien",
-      epoque: "Llandovery",
-      etage: "Télychien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Silurien",
@@ -1510,25 +847,9 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Silurien",
-      epoque: "Llandovery",
-      etage: "Aéronien",
-      image: "",
-      description: "",
-    },
   ],
 
   Rhuddanien: [
-    {
-      name: "",
-      period: "Silurien",
-      epoque: "Llandovery",
-      etage: "Rhuddanien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Silurien",
@@ -1548,24 +869,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Ordovicien",
-      epoque: "Supérieur",
-      etage: "Hirnantien",
-      image: "",
-      description: "",
-    },
   ],
   Katien: [
-    {
-      name: "",
-      period: "Ordovicien",
-      epoque: "Supérieur",
-      etage: "Katien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Ordovicien",
@@ -1584,24 +889,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Ordovicien",
-      epoque: "Supérieur",
-      etage: "Sandbien",
-      image: "",
-      description: "",
-    },
   ],
   Darriwilien: [
-    {
-      name: "",
-      period: "Ordovicien",
-      epoque: "Moyen",
-      etage: "Darriwilien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Ordovicien",
@@ -1620,14 +909,6 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Ordovicien",
-      epoque: "Moyen",
-      etage: "Dapingien",
-      image: "",
-      description: "",
-    },
   ],
   Floien: [
     {
@@ -1638,24 +919,8 @@ const especeData = {
       image: "",
       description: "",
     },
-    {
-      name: "",
-      period: "Ordovicien",
-      epoque: "Inférieur",
-      etage: "Floien",
-      image: "",
-      description: "",
-    },
   ],
   Trémadocien: [
-    {
-      name: "",
-      period: "Ordovicien",
-      epoque: "Inférieur",
-      etage: "Trémadocien",
-      image: "",
-      description: "",
-    },
     {
       name: "",
       period: "Ordovicien",
