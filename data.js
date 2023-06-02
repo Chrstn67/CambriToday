@@ -902,12 +902,13 @@ const especeData = {
   ],
   Dapingien: [
     {
-      name: "",
+      name: "Orthoceras",
       period: "Ordovicien",
       epoque: "Moyen",
       etage: "Dapingien",
-      image: "",
-      description: "",
+      image: "./images/Orthoceras.jpeg",
+      description:
+        "Caractérisé par sa coquille en forme de cône allongé et spiralé, Orthoceras possédait une chambre habitée par un mollusque et utilisait ses nombreux tentacules pour se nourrir et se déplacer dans l'océan. Disparu depuis le Darrwilien, il est aujourd'hui souvent utilisé comme objet de collection ou comme élément décoratif.",
     },
   ],
   Floien: [
