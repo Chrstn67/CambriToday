@@ -148,7 +148,7 @@ const especeData = {
       period: "Néogène",
       epoque: "Miocène",
       etage: "Aquitanien",
-      image: "/images/Deinotherium.jpg",
+      image: "./images/Deinotherium.jpg",
       description:
         "Le Deinotherium était un genre d'éléphant préhistorique qui a vécu pendant le Miocène, il y a environ 23 à 5 millions d'années. Il était caractérisé par ses défenses inférieures courbées vers l'avant, contrairement aux éléphants modernes dont les défenses sont incurvées vers le bas. Le Deinotherium avait une trompe allongée et une taille impressionnante, pouvant atteindre jusqu'à 4 mètres de hauteur à l'épaule. Les plus gros spécimen devaient peser entre 12 et 15 tonnes. C'était l'un des plus grands mammifères terrestres de son époque.",
     },
@@ -587,12 +587,13 @@ const especeData = {
   ],
   Roadien: [
     {
-      name: "",
+      name: "Acleistorhinus",
       period: "Permien",
       epoque: "Guadalupien",
       etage: "Roadien",
-      image: "",
-      description: "",
+      image: "./images/Acleistorhinus.jpeg",
+      description:
+        "Acleistorhinus était caractérisé par son crâne court et large, son corps massif et ses membres robustes. Il possédait une carapace osseuse qui lui offrait une protection contre les prédateurs. Il se nourrissait probablement d'insectes et d'autres petits animaux. Acleistorhinus fait partie des nombreux reptiles qui ont vécu avant l'apparition des dinosaures.",
     },
   ],
   Kungurien: [
@@ -679,22 +680,33 @@ const especeData = {
 
   Serpukhovien: [
     {
-      name: "",
+      name: "Acherontiscus",
       period: "Carbonifère",
       epoque: "Mississippien",
       etage: "Serpukhovien",
-      image: "",
-      description: "",
+      image: "./images/Acherontiscus.jpeg",
+      description:
+        "Les restes fossiles de Acherontiscus ont été découverts en Allemagne. Acherontiscus avait un corps allongé avec des nageoires et des écailles ressemblant à celles des poissons modernes. Il était prédateur et se nourrissait probablement d'autres petits poissons et d'invertébrés aquatiques.",
+    },
+    {
+      name: "Akmonistion",
+      period: "Carbonifère",
+      epoque: "Mississippien",
+      etage: "Serpukhovien",
+      image: "./images/Akmonistion.jpeg",
+      description:
+        "Akmonistion est un animal aquatique ressemblant à un requin. Son aileron dorsal ressemble à une enclume. Découvert pour la première fois en 2001, Akmonistion fait partie de la famille des poissons cartilagineux et ne devait pas excéder 2 mètres de long.",
     },
   ],
   Viséen: [
     {
-      name: "",
+      name: "Arthropleura",
       period: "Carbonifère",
       epoque: "Mississippien",
       etage: "Viséen",
-      image: "",
-      description: "",
+      image: "./images/Arthropleura.jpeg",
+      description:
+        "Arthropleura était un animal terrestre, ressemblant à un mille-pattes, qui pouvait mesurer jusqu'à 2,50 mètres de long. Arthropleura possédait un corps segmenté avec de nombreuses pattes, une carapace externe protectrice et des mandibules pour se nourrir. C'était l'un des plus grands arthropodes terrestres connus de l'histoire de la Terre. Bien qu'impressionnant, il devait se nourrir uniquement de végétaux.",
     },
   ],
   Tournaisien: [
@@ -709,12 +721,13 @@ const especeData = {
   ],
   Famennien: [
     {
-      name: "",
+      name: "Acanthostega",
       period: "Dévonien",
       epoque: "Supérieur",
       etage: "Famennien",
-      image: "",
-      description: "",
+      image: "./images/Acanthostega.jpeg",
+      description:
+        "Acanthostega possédait à la fois des caractéristiques de poissons et d'amphibiens. Il avait des membres osseux ressemblant à des nageoires, mais aussi des doigts et des orteils avec des os individuels. Cependant, il était encore bien adapté à la vie aquatique et ne pouvait pas se déplacer efficacement sur la terre ferme. Cette espèce ancienne nous aide à comprendre comment les premiers animaux ont colonisé la terre.",
     },
   ],
   Frasnien: [
@@ -779,12 +792,13 @@ const especeData = {
   ],
   Pridolien: [
     {
-      name: "",
+      name: "Anglaspis",
       period: "Silurien",
       epoque: "Pridoli",
       etage: "Pridolien",
-      image: "",
-      description: "",
+      image: "./images/Anglaspis.jpeg",
+      description:
+        "Anglaspis est un genre de poissons fossiles appartenant à la classe des placodermes. Il se distinguait par son corps recouvert d'une armure osseuse et sa tête munie de plaques protectrices. Anglaspis était un prédateur marin , doté de mâchoires puissantes pour saisir et broyer leur proie. Il était largement répandu dans les océans de l'époque.",
     },
   ],
   Ludfordien: [
@@ -923,12 +937,13 @@ const especeData = {
   ],
   Trémadocien: [
     {
-      name: "",
+      name: "Arandaspis",
       period: "Ordovicien",
       epoque: "Inférieur",
       etage: "Trémadocien",
-      image: "",
-      description: "",
+      image: "./images/Arandaspis.jpeg",
+      description:
+        "Arandaspis est un genre éteint de poissons agnathes (sans mâchoires) appartenant à la classe des ostracodermes. Arandaspis possédait un corps allongé et dépourvu de mâchoires, avec une peau couverte de plaques osseuses, ce qui en fait l'un des premiers poissons à posséder une armure. Il se déplaçait dans les océans anciens en filtrant les particules alimentaires de l'eau. Les fossiles d'Arandaspis ont été découverts en Australie et en Amérique du Nord.",
     },
   ],
   Etage10: [
@@ -984,13 +999,13 @@ const especeData = {
   ],
   Wuliuen: [
     {
-      name: "Aysheaia",
+      name: "Acadagnostus",
       period: "Cambrien",
       epoque: "Miaolingien",
       etage: "Wuliuen",
-      image: "./images/Aysheaia.jpeg",
+      image: "./images/Acadagnostus.jpeg",
       description:
-        "Aysheaia était caractérisé par son corps segmenté et allongé, avec des appendices en forme de pattes sur chaque segment. Ces créatures étaient dépourvues de membres articulés et possédaient une bouche située à l'extrémité antérieure de leur corps. Aysheaia était probablement un prédateur, se nourrissant de petits organismes marins.",
+        "cadagnostus était une espèce de petite taille, mesurant généralement moins de 2 centimètres de long. Ces trilobites étaient benthiques, ce qui signifie qu'ils vivaient près du fond marin.",
     },
     {
       name: "Anomalocaris",
@@ -1001,6 +1016,16 @@ const especeData = {
       description:
         "Anomalocaris possédait un corps allongé avec une paire d'yeux composés, une bouche munie de nombreuses pointes et des appendices en forme de nageoires. Il mesurait entre 2 et 4 mètres de longueur et se nourrissait probablement de petits organismes marins. Anomalocaris est considéré comme l'un des premiers prédateurs de grande taille de l'histoire de la vie sur Terre.",
     },
+    {
+      name: "Aysheaia",
+      period: "Cambrien",
+      epoque: "Miaolingien",
+      etage: "Wuliuen",
+      image: "./images/Aysheaia.jpeg",
+      description:
+        "Aysheaia était caractérisé par son corps segmenté et allongé, avec des appendices en forme de pattes sur chaque segment. Ces créatures étaient dépourvues de membres articulés et possédaient une bouche située à l'extrémité antérieure de leur corps. Aysheaia était probablement un prédateur, se nourrissant de petits organismes marins.",
+    },
+
     {
       name: "Hallucigenia",
       period: "Cambrien",
@@ -1086,12 +1111,13 @@ const especeData = {
   ],
   Etage3: [
     {
-      name: "",
+      name: "Amiskwia",
       period: "Cambrien",
       epoque: "Série 2",
       etage: "Etage 3",
-      image: "",
-      description: "",
+      image: "./images/Amiskwia.jpeg",
+      description:
+        "Amiskwia est une espèce d'organisme fossile, plus précisément un animal invertébré considéré comme un membre énigmatique du règne animal, car sa classification précise reste incertaine. Amiskwia avait une forme allongée et ressemblait à un ver ou à un lombric, avec un corps segmenté et des appendices. Il possédait également des structures en forme de couronne à l'extrémité antérieure, suggérant peut-être une fonction alimentaire spécifique. Bien que son mode de vie exact soit inconnu, Amiskwia était probablement vivant au fond des océans ou des mers peu profondes.",
     },
   ],
   Etage2: [
